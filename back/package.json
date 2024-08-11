@@ -1,0 +1,31 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "build:esbuild": "esbuild --watch D:\\COURS\\inondation\\back\\esbuild.config.cjs"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "@vitejs/plugin-react": "^4.2.0",
+        "axios": "^1.6.4",
+        "bootstrap": "^5.2.3",
+        "esbuild": "^0.21.5",
+        "laravel-vite-plugin": "^1.0.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "sass": "^1.56.1",
+        "vite": "^5.2.13"
+    },
+    "dependencies": {
+        "@fullcalendar/bootstrap": "^6.1.15",
+        "@fullcalendar/core": "^6.1.15",
+        "@fullcalendar/daygrid": "^6.1.15",
+        "@fullcalendar/luxon": "^6.1.15",
+        "@fullcalendar/timegrid": "^6.1.15",
+        "chart.js": "^4.4.3",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    }
+}

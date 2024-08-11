@@ -1,0 +1,68 @@
+{
+  "name": "inondation",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.15.19",
+    "@react-google-maps/api": "^2.19.3",
+    "@react-leaflet/core": "^2.1.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "geojson": "^0.5.0",
+    "leaflet": "^1.9.4",
+    "leaflet-control-geocoder": "^2.4.0",
+    "leaflet-draw": "^1.0.4",
+    "leaflet-geosearch": "^4.0.0",
+    "leaflet-routing-machine": "^3.2.12",
+    "mapbox-gl": "^3.4.0",
+    "mapbox-gl-leaflet": "^0.0.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-leaflet-draw": "^0.20.4",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.12.7",
+    "terraformer-wkt-parser": "^1.2.1",
+    "web-vitals": "^2.1.4",
+    "wellknown": "^0.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
